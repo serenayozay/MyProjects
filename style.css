@@ -1,0 +1,25 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(149, 100, 195);
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+#btnAddNewTask{
+    background-color: rgb(242, 0, 255) ;
+}
+
+#btnAddNewTask:hover{
+    background-color: rgb(149, 100, 195);
+}
+
+#btnDeleteAll{
+    background-color: rgb(203, 165, 206) ;
+}
+
+.card-header{
+    background-color: rgb(181, 175, 175);
+}

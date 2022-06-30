@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Serenay's Todo List</title>
+</head>
+
+<body>
+
+	<div class="container">	
+		<h2 class="title" id="header">Serenay's Todo List &#129488;</h2>	
+		<div class="card">
+			<div class="card-header">Yeni Todo</div>
+			<div class="card-body">
+				<form id="addTaskForm">
+					<div class="input-group">
+						<input id="txtTaskName" name="taskName" type="text" class="form-control" placeholder="Yeni Todo Giriniz.." aria-describedby="btnAddNewTask">
+						<div class="input-group-append">
+							<button class="btn btn-danger" type="submit" id="btnAddNewTask">Todo Ekle </button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="card ">
+			<div class="card-header">Todo Listesi<a id="btnDeleteAll" href="#" class="btn btn-outline-primary btn-sm delete-all float-right">Hepsini Sil</a>
+			</div>
+
+			<ul id="task-list" class="list-group"> 
+				<!-- <li class="list-group-item list-group-item-secondary">Todo 1
+					<a href="#" class="delete-item float-right">
+						<i class="fas fa-times"></i>
+					</a>
+				</li>
+				<li class="list-group-item list-group-item-secondary">Todo 2 
+					<a href="#" class="delete-item float-right">
+						<i class="fas fa-times"></i>
+					</a>
+				</li> -->
+			
+			</ul> 
+
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
